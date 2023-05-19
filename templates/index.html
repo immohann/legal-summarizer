@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>T&C Summarization</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>T&C Summarization</h1>
+    </header>
+    <main>
+        <form action="{{ url_for('summarize') }}" method="post">
+            <label for="article">Enter your article:</label>
+            <textarea id="article" name="article" rows="10" cols="50"></textarea>
+            <button type="submit">Summarize</button>
+        </form>
+    </main>
+</body>
+</html>
