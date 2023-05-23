@@ -4,7 +4,7 @@
 ![Flask](https://img.shields.io/badge/Flask-2.0%2B-orange.svg)
 
 This is a Flask application that utilizes the Transformers library for text summarization. A abstractive text summarizer specifically designed to summarize complex Terms and Conditions article. 
-
+ 
 ## Prerequisites
 
 - Python 3.9.2
